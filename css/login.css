@@ -1,0 +1,273 @@
+* { margin: 0; padding: 0; }
+    
+body {
+   font-family: Verdana, sans-serif;
+   font-size: 14px;
+}
+    
+p { margin: 10px; }
+
+#top_banda {
+  width: 100%;
+  height: 150px;
+  margin: 0;
+  padding: 0;
+  background-color: darkgrey;
+}
+
+#pagina {
+  display:inline-block;
+
+}
+#sidebar_left {
+  float: left; 
+  width: 650px !important;
+  margin-right: 5px;
+}
+
+#content {
+  float: right;
+  margin-right: 50px;
+  overflow: hidden;
+  width: auto !important;
+}
+#sidebar_right {
+  float: right; 
+  width: 350px !important;
+  margin-left: 5px;
+}
+
+#login_registrati {
+  margin-top: 35px;
+  color: darkgrey;
+}
+
+#p_scritta {
+  font-size: 30px;
+  font-weight: bold;
+  color: darkgrey;
+  margin: 25px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+#a_scritta {
+  font-size: 30px;
+  font-weight: bold;
+  color: darkgrey;
+  margin: 25px;
+  margin-top: 50px;
+  margin-left: 50px;
+    color: black;
+}
+
+#p_logo {
+  position: absolute;
+  font-size: 60px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-left: 50px;
+  text-decoration:none;
+  color: white;
+}
+
+
+  #login
+ 
+  {  
+   
+  z-index: 0;
+ 
+  margin-top: 15px;
+ 
+ 
+  }
+  #login:before
+ 
+  {
+ 
+  content: '';
+ 
+  position: absolute;
+ 
+  z-index: -1;
+ 
+  border: 1px dashed #ccc;
+ 
+  top: 3px;
+ 
+  bottom: 3px;
+ 
+  left: 3px;
+ 
+  right: 3px;
+ 
+  -moz-box-shadow: 0 0 0 1px #fff;
+ 
+  -webkit-box-shadow: 0 0 0 1px #fff;
+ 
+  box-shadow: 0 0 0 1px #fff;
+ 
+  }
+ 
+  fieldset
+ 
+  {
+ 
+  border: 0;
+ 
+  padding: 0;
+ 
+  margin: 0;
+ 
+  }
+ 
+  #inputs input
+ 
+  {
+ 
+  background: #f9f9f9 url(../images/login-sprite.png) no-repeat;
+ 
+  padding: 5px 5px 5px 5px;
+ 
+  margin: 0 0 10px 0;
+ 
+  width: 203px; /* 353 + 2 + 45 = 400 */
+ 
+  border: 1px solid #ccc;
+ 
+  -moz-border-radius: 5px;
+ 
+  -webkit-border-radius: 5px;
+ 
+  border-radius: 5px;
+ 
+  -moz-box-shadow: 0 1px 1px #ccc inset, 0 1px 0 #fff;
+ 
+  -webkit-box-shadow: 0 1px 1px #ccc inset, 0 1px 0 #fff;
+ 
+  box-shadow: 0 1px 1px #ccc inset, 0 1px 0 #fff;
+ 
+  }
+ 
+  #username{  background-position: 5px -2px !important;}
+ 
+  #password{  background-position: 5px -52px !important;}
+ 
+  #inputs input:focus
+ 
+  {
+ 
+  border-color: #e8c291;
+ 
+  outline: none;
+ 
+  -moz-box-shadow: 0 0 0 1px #e8c291 inset;
+ 
+  -webkit-box-shadow: 0 0 0 1px #e8c291 inset;
+ 
+  box-shadow: 0 0 0 1px #e8c291 inset;
+ 
+  }
+ 
+  #actions{ margin: 25px 0 0 0;}
+ 
+  #submit
+ 
+  {       
+ 
+  background-color: #ffb94b;
+  
+  -moz-border-radius: 3px;
+ 
+  -webkit-border-radius: 3px;
+ 
+  border-radius: 3px;
+ 
+  text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+ 
+   -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+ 
+   -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+ 
+   box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;    
+ 
+  border-width: 1px;
+ 
+  border-style: solid;
+ 
+  border-color: #d69e31 #e3a037 #d5982d #e3a037;
+ 
+  float: left;
+ 
+  height: 35px;
+ 
+  padding: 0;
+ 
+  width: 120px;
+ 
+  cursor: pointer;
+ 
+  font: bold 15px Arial, Helvetica;
+ 
+  color: #8f5a0a;
+ 
+  }
+ 
+  #submit:hover,#submit:focus
+ 
+  {       
+ 
+  background-color: #fddb6f;
+ 
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffb94b), to(#fddb6f));
+ 
+  background-image: -webkit-linear-gradient(top, #ffb94b, #fddb6f);
+ 
+  background-image: -moz-linear-gradient(top, #ffb94b, #fddb6f);
+ 
+  background-image: -ms-linear-gradient(top, #ffb94b, #fddb6f);
+ 
+  background-image: -o-linear-gradient(top, #ffb94b, #fddb6f);
+ 
+  background-image: linear-gradient(top, #ffb94b, #fddb6f);
+ 
+  }   
+ 
+  #submit:active
+ 
+  {       
+ 
+  outline: none;
+ 
+   -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+ 
+   -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+ 
+   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;        
+ 
+  }
+ 
+  #submit::-moz-focus-inner
+ 
+  {
+ 
+border: none;
+ 
+  }
+ 
+  #actions a
+ 
+  {
+ 
+  color: #3151A2;    
+ 
+  float: right;
+ 
+  line-height: 35px;
+ 
+  margin-left: 10px;
+ 
+  }
+
+
+

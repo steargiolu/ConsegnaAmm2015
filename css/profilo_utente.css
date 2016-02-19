@@ -1,0 +1,35 @@
+#blocco_dati {
+  position: relative;
+  width: 85%;
+  height: 400px;
+  border: 1px solid darkgrey;
+  margin: 10px;
+  margin-top: 75px;
+  padding: 25px;
+  padding-left: 50px;
+}
+ul#orizz li 
+{
+    float: left;
+    list-style: none;
+    padding: 0 2px;
+} 
+ul#orizz li p
+{
+  font-size: 50px;
+  color: DIMGRAY;
+} 
+ul#orizz li a
+{ 
+  margin: 10px;
+  margin-left: 30px;
+  font-size: 20px;
+  color: DIMGRAY;
+
+} 
+#imp
+{
+  color: DIMGRAY;
+  font-size: 25px;
+}
+
